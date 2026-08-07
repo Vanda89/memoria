@@ -1,0 +1,19 @@
+# Sous-repos indépendants (chacun son propre dépôt git)
+memoria-cms/
+memoria-bff/
+memoria-front/
+
+# Claude Code — settings locaux, propres à la machine
+.claude/settings.local.json
+
+# Notes perso (prépa alternance, révisions, coffre Obsidian) — repos séparés, jamais poussés ici
+docs/
+Memoria/
+
+# IDE / workspace
+.idea/
+memoria.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
