@@ -1,0 +1,25 @@
+{
+  "name": "memoria",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Docker orchestration for the memoria project (memoria-cms, memoria-bff, memoria-front)",
+  "scripts": {
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanda89/memoria.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vanda89/memoria/issues"
+  },
+  "homepage": "https://github.com/Vanda89/memoria#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^21.2.1",
+    "@commitlint/config-conventional": "^21.2.0",
+    "husky": "^9.1.7"
+  }
+}
