@@ -1,0 +1,13 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  "eslint.validate": ["javascript", "typescript", "vue"],
+  "eslint.workingDirectories": [
+    { "directory": "memoria-bff", "changeProcessCWD": true },
+    { "directory": "memoria-front", "changeProcessCWD": true },
+    { "directory": "memoria-cms", "changeProcessCWD": true }
+  ]
+}
